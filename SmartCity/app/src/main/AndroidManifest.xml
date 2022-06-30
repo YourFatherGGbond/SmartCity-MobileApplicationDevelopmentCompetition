@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartcity_bisai_2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Activity.Activity_newsXq"></activity>
+        <activity android:name=".Activity.ShuJu.Activitt_ShuJu" />
+        <activity android:name=".Activity.DianYing.Activity_dy" />
+        <activity android:name=".Activity.WaiMai.Activity_DianXQ" />
+        <activity
+            android:name=".Activity.WaiMai.Activity_wm_main"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Activity.Car.Activity_CarXQ" />
+        <activity android:name=".Activity.Car.Activity_Car" />
+        <activity android:name=".Activity.BaShi.Activity_BaShi" />
+        <activity android:name=".Activity.Activity_YiJianFanKui" />
+        <activity android:name=".Activity.Activity_XiuGaiPwd" />
+        <activity android:name=".Activity.Activity_DingDanList" />
+        <activity android:name=".Activity.Activity_GeRenXinXi" />
+        <activity android:name=".Activity.Activity_ZhuCe" />
+        <activity android:name=".Activity.Activity_NewsList" />
+        <activity android:name=".Activity.Activity_KaiPing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>
