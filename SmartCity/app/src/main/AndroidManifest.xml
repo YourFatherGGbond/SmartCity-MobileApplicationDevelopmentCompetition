@@ -28,7 +28,8 @@
         <activity android:name=".Activity.Activity_GeRenXinXi" />
         <activity android:name=".Activity.Activity_ZhuCe" />
         <activity android:name=".Activity.Activity_NewsList" />
-        <activity android:name=".Activity.Activity_KaiPing">
+        <activity android:name=".Activity.Activity_KaiPing" android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
